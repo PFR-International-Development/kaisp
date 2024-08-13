@@ -1,5 +1,5 @@
 # kaisp
-Kenya avocado project
+Kenya avocado project.
 
 [Avocado Time to Harvest Calculator](Avocado%20Time%20to%20Harvest.xlsx)
 
