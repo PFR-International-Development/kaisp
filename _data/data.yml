@@ -1,0 +1,111 @@
+---
+groups:
+  # Time to Harvest
+  - cards:
+      - item: TTH Calculator
+        url: /assets/files/AvocadoTimeToHarvestCalculator.xlsx
+        text: Use this spreadsheet tool to estimate time-to-harvest for main-crop
+          avocados in Kenya.
+        linktext: Download spreadsheet
+        type: 16 MB EXCEL
+        image: thumb-7.jpg
+      - item: TTH User Guide
+        url: /assets/files/TimeToHarvestCalculatorUserGuide.pdf
+        text: A simple guide to working through the calculator to obtain the information
+          you need to guide decisions on harvest date.
+        linktext: Download User Guide
+        type: 0.225 kB PDF
+        image: thumb-2.jpg
+    name: Avocado Time to Harvest (TTH) Calculator
+    description:
+  # Nurseries
+  - cards:
+      - item: Phytophthora-free Nursery Plans
+        url: /assets/files/PhytophthoraFreeAvocadoNurseryPlans.pdf
+        text: Professionally drafted plans for a phytophthora-free avocado nursery including 
+          cross sections for the propagation facility and shade house, and irrigation plan.
+        linktext: Download Plans
+        type: 6.9 MB
+        image: thumb-1.jpg
+      - item: Phytophthora-free Nursery Protocol
+        url: /assets/files/PhytophthoraFreeAvocadoNurseryProtocol.pdf
+        text: This protocol is designed to deliver strong, vigorous, true-to-type grafted avocado 
+          seedlings whose roots are free from the root rot causing organism <i>Phytophthora cinnamomi</i>.
+        linktext: Download Nursery Protocol
+        type: 306 kB PDF
+        image: thumb-8.jpg      
+      - item: Phytophthora Root Rot of Avocado in Kenya
+        url: https://www.youtube.com/watch?v=eBF13exM-5c
+        text: 
+        linktext: Watch on YouTube
+        type: 25 Minutes
+        image: thumb-1.jpg       
+    name: Phytophthora-free Avocado Nurseries
+    description: 
+  # Postharvest
+  - cards:
+      - item: Dry Matter Sampling Protocol
+        url: /assets/files/AvocadoDryMatterSamplingProtocol.pdf
+        text: A protocol for measuring dry matter in avocado fruit.
+        linktext: Download Protocol
+        type: 1.5 MB PDF
+        image: thumb-2.jpg
+    name: Postharvest
+    description: 
+  # Technical Notes
+  - cards:
+      - item: <i>Phytophthora cinnamomi</i>
+        url: /assets/files/TechnicalNote1PhytophthoraCinnamomi.pdf
+        text: 
+        linktext: Download PDF
+        type: 1MB PDF
+        image: thumb-4.jpg
+      - item: Oriental Fruit Fly (<i>Bactrocera dorsalis</i>)
+        url: /assets/files/TechnicalNote2OrientalFruitFly.pdf
+        text: 
+        linktext: Download PDF
+        type: 218 kB PDF
+        image: thumb-5.jpg
+      - item: White spot postharvest rot
+        url: /assets/files/TechnicalNote3WhiteSpotPostharvestRot.pdf
+        text: 
+        linktext: Download PDF
+        type: 195 kB PDF
+        image: thumb-6.jpg
+      - item: Anthracnose (Colletotrichum gloeosporioides)
+        url: /assets/files/TechnicalNote4Anthracnose.pdf
+        text: 
+        linktext: Download PDF
+        type: 300 kB PDF
+        image: thumb-2.jpg
+      - item: Cercospora Spot
+        url: /assets/files/TechnicalNote5CercosporaSpot.pdf
+        text: 
+        linktext: Download PDF
+        type: 549 kB PDF
+        image: thumb-2.jpg
+      - item: Introduction to Plant Nutrition of Avocado 
+        url: /assets/files/TechnicalNote6IntroductionToPlantNutritionOfAvocado.pdf
+        text: 
+        linktext: Download PDF
+        type: 359 kB PDF
+        image: thumb-4.jpg
+      - item: Pruning Avocado
+        url: /assets/files/TechnicalNote7PruningAvocado.pdf
+        text: 
+        linktext: Download PDF
+        type: 2.4MB PDF
+        image: thumb-5.jpg
+    name: Technical Notes
+    description: Short guides on the management of pests and diseases and orchard management practices.
+  #  KAISP Final Workshop
+  - cards:
+      - item: Focus Group Industry Priorities
+        url: /assets/files/KAISPFinalWorkshopFocusGroupIndustryPriorities.pdf
+        text: The theme of the KAISP final workshop was ‘Advances in technology for avocado production in Kenya’. 
+          This report is a summary of industry priorities from the interactive focus group sessions.
+        linktext: Download PDF
+        type: 563 kB PDF
+        image: thumb-2.jpg
+    name:  KAISP Final Workshop
+    description: 

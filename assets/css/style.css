@@ -1,0 +1,49 @@
+/*
+#8C2257 maroon
+#254D25 dark green
+#228C22 forest green
+#37202B slate
+#BDFFBD pastel light green
+
+*/
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  h1 { color: white; padding: 80px 40px; font-size: 6rem; }
+  @media (max-width: 1000px) {  
+    h1 {font-size:4rem;} /*1rem = 16px*/
+  }
+  @media (max-width: 600px) {  
+    h1 {font-size:3rem;} /*1rem = 16px*/
+  }
+
+  .container {max-width: 1200px; }
+  .welcome {font-size: 1.2rem}
+  .h2 {margin-top: 60px; font-size: 1.8rem; color:#254D25}
+  .card-body {padding: 8px}
+  .card-body a {color:#8C2257; text-decoration: none; text-transform: uppercase; font-weight: 700; font-size: 0.8rem}
+  .card-body p:last-of-type {margin-bottom: 0}
+  .card-img {position: relative; }
+  .card-img h3 {position: absolute; top: 20%; color: #F0FFF0; font-size: 1.6rem; margin: 16px; z-index: 999}
+  footer {margin: 80px 0 40px}
+  footer ul{padding: 0; list-style-type: none;}
+  footer ul li {display: inline-block; max-height: 100px}
+  header > div {  
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; }
+
+    footer .terms a {color: #fff}
+    footer .terms {margin: 40px 0; background-color: #8C2257; color: #fff; padding: 10px 0 1px 0}
+    footer .terms ul{padding: 0; list-style-type: none;}
+    footer .terms ul li {display: inline-block; max-height: 100px; padding: 0 10px 0 10px}
+    footer .terms ul li:first-of-type { border-right: 2px solid #fff }
+
+   .card-img {background: #000;}  .card-img img {opacity: 0.6}

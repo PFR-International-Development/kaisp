@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <title>{{page.title}} Home page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">  
+</head>
+  <body class="montserrat">
+    <header class="text-center">
+    <div style=" background-image: url('/assets/images/banner.jpg')"><h1>Kenya Avocado Industry Support Programme</h1></div>
+    
+    </header>
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col welcome mt-5">
+          <p>On this site are key documents produced by the <i>Kenya Avocado Industry Support Programme</i> (<strong>KAISP</strong>).</p>
+          <p>
+            Delivered by the New Zealand Institute for Plant and Food Research and funded by the New Zealand Government’s Ministry of Foreign Affairs & Trade, KAISP sought to
+            increase economic and food security, and support climate smart agriculture in Kenya with a particular focus on avocado farming systems. The decade-long program had many
+            wonderful collaborators and ended in mid-2023.  Sharing these key documents on this publicly available site is one way the innovation of KAISP can continue to have a
+            positive impact.
+          </p>
+
+          <p>Please acknowledge New Zealand Institute for Plant and Food Research (and our KAISP partners where appropriate) if re-publishing any documents on this site.</p>
+        </div>
+      </div>
+    {{ content }}
+  </div>
+    <footer>
+      <div class="row m-auto text-center">
+        <div class="col">
+          <ul>
+            <li>
+              <a href="https://www.plantandfood.com"><img class="img-fluid w-75" src="/assets/images/plant-&-food-research-logo.png" /></a>
+            </li>
+            <li>
+              <a href="https://www.mfat.govt.nz/"><img class="img-fluid w-50" src="/assets/images/mfat-logo.png" /></a>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row terms">
+      <ul>
+        <li>© 2024 The New Zealand Institute for Plant and Food Research Limited</li>
+        <li><a href="https://www.plantandfood.com/en-nz/terms-of-use">Terms of Use</a></li>
+      </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
+</html>

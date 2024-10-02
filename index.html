@@ -1,6 +1,32 @@
-# kaisp
-<h1>Kenya avocado project.</h1>
+---
+layout: default 
+title: Kenya Avocado Industry Support Programme
+---
 
-<p><a href="Avocado%20Time%20to%20Harvest.xlsx">Avocado Time to Harvest Calculator</a></p>
+  {% for group in site.data.data.groups %}
+  <h2 class="h2">{{group.name}}</h2>
+  {{group.description|markdownify}}
+ <div class="row row-gap-4">
 
-<p><a href="User%20Guide%20for%20TTH.docx">Avocado Time to Harvest Calculator User Guide</a></p>
+{% for card in group.cards %}
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <div class="card-img">
+        <a href="{{card.url}}"
+          ><img src="/assets/images/{{card.image}}" class="card-img-top" alt="..." />
+          <h3>{{card.item}}</h3></a
+        >
+      </div>
+      <div class="card-body">
+      {% if card.text %}
+        <p class="card-text">{{card.text}}</p>{% endif %}
+        <p><a href="{{card.url}}">{{card.linktext}} ({{card.type}})</a></p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+  {% endfor %} 
+
+
+
