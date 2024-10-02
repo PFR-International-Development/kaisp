@@ -1,9 +1,7 @@
-title: My Awesome Gallery
-description: Check out my road blur images presented in 'antique plate' style
+title: Kenya Avocado Industry Support Programme
+description: On this site are key documents produced by the Kenya Avocado Industry Support Programme (KAISP).
 show_downloads: true
 baseurl: "/kaisp"
-collections:
-- cards
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
