@@ -1,7 +1,7 @@
 title: My Awesome Gallery
 description: Check out my road blur images presented in 'antique plate' style
 show_downloads: true
-baseurl: ""
+baseurl: "/kaisp/"
 collections:
 - cards
 plugins:
