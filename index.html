@@ -12,7 +12,17 @@ title: Kenya Avocado Industry Support Programme
   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
     <div class="card h-100">
       <div class="card-img">
-        <a href="{{ site.baseurl }}{{card.url}}"
+
+     
+{% if card.url contains '://' %}
+{% assign baseurl = "" %}      
+{% else %}
+{% assign baseurl = site.baseurl %} 
+{% endif %}
+
+
+        
+        <a href="{{ baseurl }}{{card.url}}"
           ><img src="{{ site.baseurl }}/assets/images/{{card.image}}" class="card-img-top" alt="..." />
           <h3>{{card.item}}</h3></a
         >
@@ -20,7 +30,7 @@ title: Kenya Avocado Industry Support Programme
       <div class="card-body">
       {% if card.text %}
         <p class="card-text">{{card.text}}</p>{% endif %}
-        <p><a href="{{ site.baseurl }}{{card.url}}">{{card.linktext}} ({{card.type}})</a></p>
+        <p><a href="{{ baseurl }}{{card.url}}">{{card.linktext}} ({{card.type}})</a></p>
       </div>
     </div>
   </div>
